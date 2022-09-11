@@ -1,0 +1,37 @@
+@import '../base/listas';
+
+header{
+    background-color: nth($colores, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navbar{
+        padding: 0 0 0 10px;
+        margin: 0;
+        width: 95%;
+
+        .navbar-toggler {
+            background-color: nth($colores, 3);
+        }
+    }
+
+    .logoContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        img {
+            width: 100%;
+        }
+        h2{
+            color: black;
+        }
+    }
+
+    .navbar-toggler {
+        background-color: black;
+    }
+}
+

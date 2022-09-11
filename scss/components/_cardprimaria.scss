@@ -1,0 +1,20 @@
+@import '../base/listas';
+
+.articuloContainer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    width: 75%;
+    background: nth($colores, 4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

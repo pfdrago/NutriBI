@@ -1,0 +1,20 @@
+$colores:
+#ffff6b, //nth($colores, 1)//
+#fdd835, //nth($colores, 2)//
+#c6a700, //nth($colores, 3)//
+#f8e71c40; //nth($colores, 4)//
+
+$colores-texto:
+#515151, //nth($colores-texto, 1)//
+#3c3c3c; //nth($colores-texto, 2)//
+
+$encabezados:
+12px, //nth($encabezados, 1)//
+24px, //nth($encabezados, 2)//
+30px, //nth($encabezados, 3)//
+38px; //nth($encabezados, 4)//
+
+$parrafos:
+1rem, //nth($parrafos, 1)//
+1.5rem, //nth($parrafos, 2)//
+1.8rem; //nth($parrafos, 3)//

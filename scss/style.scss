@@ -1,0 +1,24 @@
+// Formateo general //
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+// Fin Formateo general //
+
+@import 'components/header.scss'; 
+@import 'components/cardprimaria';
+@import 'components/cards';
+@import 'components/videos';
+
+
+.disclaimer {
+    display: none;
+}

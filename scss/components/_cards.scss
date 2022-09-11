@@ -1,0 +1,26 @@
+@import '../base/listas';
+
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cardsContainer {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1Container, .card2Container, .card3Container, .card4Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    background: nth($colores, 4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-bottom: 20px;
+    padding:  15px 0 15px 0;
+}
