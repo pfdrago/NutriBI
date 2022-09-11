@@ -1,0 +1,16 @@
+@import '../base/listas';
+
+.footer {
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid nth($colores, 1);
+    background-color: nth($colores, 2);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    h3{
+        font-size: nth($encabezados, 1);
+    }
+}

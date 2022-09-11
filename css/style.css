@@ -96,6 +96,20 @@ header .navbar-toggler {
   -webkit-backdrop-filter: blur(3px);
 }
 
+.footer {
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #ffff6b;
+  background-color: #fdd835;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.footer h3 {
+  font-size: 12px;
+}
+
 .disclaimer {
   display: none;
 }

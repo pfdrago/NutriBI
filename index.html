@@ -8,12 +8,16 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Sweet Alert -->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <!-- Header -->
@@ -35,11 +39,8 @@
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Inicio</a>
+                      <a class="nav-link" href="index.html">Inicio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">¿Qué es NutriBI?</a>
-                      </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Instalación</a>
                       </li>
@@ -59,9 +60,9 @@
 
       <!-- Card Primaria -->
         <article class="articuloContainer">
-          <div class="articulo">
+          <div data-aos="zoom-in" class="articulo">
             <img src="imagenes/cardprimaria/quees.png" alt="¿Qué es NutriBI?">
-            <h1>¿Qué es NutriBI?</h1>
+            <h1 id="que-es">¿Qué es NutriBI?</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe incidunt quod magnam laborum modi! Magnam velit ratione ut itaque dolorem laborum officia deserunt, ipsa nulla voluptatem, error hic facilis exercitationem recusandae ex deleniti consequatur saepe omnis veritatis est incidunt quos ad a. Eius ab itaque numquam quod. Dicta, cumque quas?</p>
           </div>
         </article>
@@ -69,36 +70,33 @@
 
       <!-- Cards herramientas -->
       <section class="sectionContainer">
-        <div class="cardsContainer">
+        <div data-aos="zoom-in" class="cardsContainer">
           <div class="card1Container">
             <img src="imagenes/cards/card1.png" alt="Registro y Seguimiento del paciente">
             <h2>Registro y Seguimiento de pacientes</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eveniet a dolores commodi similique odio facere, reprehenderit nemo ducimus voluptas!</p>
-            <div id="videoContainer">
-            </div>
-            <!-- <video controls src="videos/prueba.mp4" type="video/mp4"></video> -->
             <button type="button" id="btn1" class="btn btn-primary">Ver Video</button>
           </div>
 
-          <div class="card2Container">
+          <div data-aos="zoom-in" class="card2Container">
             <img src="imagenes/cards/card2.png" alt="Estadísticas">
             <h2>Estadísticas</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eveniet a dolores commodi similique odio facere, reprehenderit nemo ducimus voluptas!</p>
-            <button type="button" class="btn btn-primary">Ver Video</button>
+            <button type="button" id="btn2" class="btn btn-primary">Ver Video</button>
           </div>
 
-          <div class="card3Container">
+          <div data-aos="zoom-in" class="card3Container">
             <img src="imagenes/cards/card3.png" alt="Historia Clínica">
             <h2>Historia Clínica</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eveniet a dolores commodi similique odio facere, reprehenderit nemo ducimus voluptas!</p>
-            <button type="button" class="btn btn-primary">Ver Video</button>
+            <button type="button" id="btn3" class="btn btn-primary">Ver Video</button>
           </div>
 
-          <div class="card4Container">
+          <div data-aos="zoom-in" class="card4Container">
             <img src="imagenes/cards/card4.png" alt="Informe del paciente">
             <h2>Informe del paciente</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eveniet a dolores commodi similique odio facere, reprehenderit nemo ducimus voluptas!</p>
-            <button type="button" class="btn btn-primary">Ver Video</button>
+            <button type="button" id="btn4" class="btn btn-primary">Ver Video</button>
           </div>
         </div>
       </section>
@@ -108,8 +106,16 @@
     <!-- Fin Main -->
 
     <!-- Footer -->
-    <h4>Desarrollado por Federico Drago</h4>
+    <footer class="footer">
+    <h3>Desarrollado por Federico Drago</h3>
+    </footer>
     <!-- Fin Footer -->
+    
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,30 +1,32 @@
-/*const btn1 = document.querySelector('#btn1')
-const videoContainer = document.querySelector('#videoContainer')
-
-
+const btn1 = document.querySelector('#btn1')
+const btn2 = document.querySelector('#btn2')
+const btn3 = document.querySelector('#btn3')
+const btn4 = document.querySelector('#btn4')
 
 btn1.addEventListener('click', () => {
-    videoContainer.classList.add('videoContainer')
-
-    videoContainer.innerHTML = '<video class="video1" id="video1"  controls src="videos/prueba.mp4" autoplay type="video/mp4"></video>'
+    Swal.fire({
+    html: '<video class="video1" id="video1"  controls src="videos/prueba.mp4" autoplay type="video/mp4"></video>',
+    confirmButtonText: 'Cerrar'
+    })
 })
 
-videoContainer.addEventListener('click', () => {
-    videoContainer.classList.remove('videoContainer')
-
-    video1.classList.remove('video1')
-    video1.classList.add('video1-off')
-})*/
-
-const btn1 = document.querySelector('#btn1')
-
-btn1.addEventListener('click', () => {
-    
-
+btn2.addEventListener('click', () => {
     Swal.fire({
-        html: '<video class="video1" id="video1"  controls src="videos/prueba.mp4" autoplay type="video/mp4"></video>',
-        imageWidth: 400,
-        imageHeight: 200,
-        imageAlt: 'Custom image',
-      })
+    html: '<video class="video1" id="video1"  controls src="videos/prueba.mp4" autoplay type="video/mp4"></video>',
+    confirmButtonText: 'Cerrar'
+    })
+})
+
+btn3.addEventListener('click', () => {
+    Swal.fire({
+    html: '<video class="video1" id="video1"  controls src="videos/prueba.mp4" autoplay type="video/mp4"></video>',
+    confirmButtonText: 'Cerrar'
+    })
+})
+
+btn4.addEventListener('click', () => {
+    Swal.fire({
+    html: '<video class="video1" id="video1"  controls src="videos/prueba.mp4" autoplay type="video/mp4"></video>',
+    confirmButtonText: 'Cerrar'
+    })
 })
