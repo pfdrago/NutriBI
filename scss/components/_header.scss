@@ -5,6 +5,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 
     .navbar{
         padding: 0 0 0 10px;
@@ -21,6 +24,7 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 10px;
         width: 10%;
         img {
             width: 100%;
@@ -29,9 +33,4 @@ header{
             color: black;
         }
     }
-
-    .navbar-toggler {
-        background-color: black;
-    }
 }
-

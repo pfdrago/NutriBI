@@ -1,0 +1,17 @@
+@import '../base/listas';
+
+.instalacionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+
+    h2 {
+        background-color: nth($colores, 2);
+    }
+
+    img {
+        width: 50%;
+    }
+}
