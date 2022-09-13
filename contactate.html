@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactate</title>
+
+    <!-- EmailJS -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+    emailjs.init('2KmRVD8EU5O98DWkS')
+    </script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="logoContainer" href="index.html">
+                    <img src="imagenes/logo.png" alt="Logo de NutriBI">
+                    <h2>NutriBI</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://drive.google.com/drive/folders/1vYLVOG5Yi_SoSRzep0usIMV-C70b_-E-?usp=sharing"
+                                target="_blank">Instalación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactate.html">Contactate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Formulario -->
+    <form class="formularioContainer" id="form">
+     <div class="formulario">
+      <div class="field">
+          <label for="from_name">Nombre</label>
+          <input class="form-control" type="text" name="from_name" id="from_name">
+        </div>
+        <div class="field">
+            <label for="email_id">Email</label>
+            <input class="form-control" type="text" name="email_id" id="email_id">
+          </div>
+        <div class="field">
+          <label for="message">Mensaje</label>
+          <textarea class="form-control" rows="3" name="message" id="message"></textarea>
+        </div>
+        <div class="inputContainer">
+        <input class="btn btn-primary" type="submit" id="button" value="Enviar">
+        </div>
+      </div>
+    </form>
+    <!-- Fin Formulario -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>Desarrollado por Federico Drago</h3>
+    </footer>
+    <!-- Fin Footer -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS -->
+    <script src="formulario.js"></script>
+
+</body>
+
+</html>

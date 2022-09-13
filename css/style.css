@@ -125,6 +125,37 @@ header .logoContainer h2 {
   width: 50%;
 }
 
+.formularioContainer {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  width: 50%;
+}
+
+.field {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  color: #777;
+}
+
+input[type=submit] {
+  background-color: #4460AA;
+  color: #fff;
+  border: none;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: end;
+}
+
 .disclaimer {
   display: none;
 }
