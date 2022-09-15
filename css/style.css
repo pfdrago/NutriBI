@@ -125,8 +125,15 @@ header .logoContainer h2 {
   width: 50%;
 }
 
-.formularioContainer {
+.mainContainer {
   padding-top: 150px;
+}
+
+.h1Container {
+  text-align: center;
+}
+
+.formularioContainer {
   display: flex;
   justify-content: center;
 }

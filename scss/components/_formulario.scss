@@ -1,7 +1,14 @@
 @import '../base/listas';
 
+.mainContainer {
+  padding-top: 150px;
+}
+
+.h1Container {
+  text-align: center;
+}
+
 .formularioContainer {
-    padding-top: 150px;
     display: flex;
     justify-content: center;
 }
