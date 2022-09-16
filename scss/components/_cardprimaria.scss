@@ -5,6 +5,18 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+
+    h1 {
+        font-family: 'Noto Sans', sans-serif;
+        color: nth($colores-texto, 2);
+        font-size: nth($encabezados, 3);
+        padding-top: 20px;
+    }
+
+    p {
+        color: nth($colores-texto, 1);
+        font-size: nth($parrafos, 1);
+    }
 }
 
 .articulo {

@@ -8,6 +8,22 @@ header{
     position: fixed;
     width: 100%;
     z-index: 100;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+
+    .nav-link{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: nth($encabezados, 2);
+        color: black;
+    }
+
+    .ulContainer {
+        text-align: center;
+        margin-bottom: 10px;
+        background-color: nth($colores, 2);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
 
     .navbar{
         padding: 0 0 0 10px;

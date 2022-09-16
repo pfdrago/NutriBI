@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +20,20 @@ header {
   position: fixed;
   width: 100%;
   z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+header .nav-link {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  color: black;
+}
+header .ulContainer {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #fdd835;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 header .navbar {
   padding: 0 0 0 10px;
@@ -49,6 +64,16 @@ header .logoContainer h2 {
   justify-content: center;
   margin-bottom: 20px;
 }
+.articuloContainer h1 {
+  font-family: "Noto Sans", sans-serif;
+  color: #3c3c3c;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.articuloContainer p {
+  color: #515151;
+  font-size: 1.1rem;
+}
 
 .articulo {
   display: flex;
@@ -78,7 +103,6 @@ header .logoContainer h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  border: 2px solid black;
   background: rgba(248, 231, 28, 0.2509803922);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 10px;
