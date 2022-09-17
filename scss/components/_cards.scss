@@ -3,6 +3,13 @@
 .sectionContainer {
     display: flex;
     justify-content: center;
+
+    button {
+        width: 50%;
+        background-color: #a5d6a7;
+        color: white;
+        border: 1px solid #75a478 ;
+    }
 }
 
 .cardsContainer {
@@ -22,4 +29,17 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-bottom: 20px;
     padding:  15px 0 15px 0;
+
+    h2 {
+        font-family: 'Noto Sans', sans-serif;
+        color: nth($colores-texto, 2);
+        font-size: nth($encabezados, 3);
+        padding-top: 20px;
+    }
+
+    p {
+        color: nth($colores-texto, 1);
+        font-size: nth($parrafos, 1);
+        font-family: 'Noto Sans', sans-serif;
+    }
 }
