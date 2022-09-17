@@ -99,6 +99,11 @@ header .logoContainer h2 {
   color: white;
   border: 1px solid #75a478;
 }
+.sectionContainer .btn:hover {
+  background-color: #a5d6a7;
+  border: 1px solid #75a478;
+  color: white;
+}
 
 .cardsContainer {
   width: 75%;
