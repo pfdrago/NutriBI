@@ -93,15 +93,15 @@ header .logoContainer h2 {
   display: flex;
   justify-content: center;
 }
-.sectionContainer button {
-  width: 50%;
+.sectionContainer .btn {
   background-color: #a5d6a7;
-  color: white;
   border: 1px solid #75a478;
+  color: white;
+  width: 50%;
 }
 .sectionContainer .btn:hover {
-  background-color: #a5d6a7;
-  border: 1px solid #75a478;
+  background-color: #8fb691;
+  border: 1px solid #5e8261;
   color: white;
 }
 
@@ -133,6 +133,16 @@ header .logoContainer h2 {
   color: #515151;
   font-size: 1.1rem;
   font-family: "Noto Sans", sans-serif;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #a5d6a7;
+  border: 1px solid #75a478;
+}
+
+.swal2-styled.swal2-confirm:hover {
+  background-color: #8fb691;
+  border: 1px solid #5e8261;
 }
 
 .video1 {
