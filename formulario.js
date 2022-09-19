@@ -19,8 +19,13 @@ document.getElementById('form')
         showConfirmButton: false,
         timer: 1500
       })
+      btn.value = "Enviar"
     }, (err) => {
       btn.value = 'Send Email';
-      alert(JSON.stringify(err));
+      Swal.fire({
+        icon: 'error',
+        title: 'Ups...',
+        text: 'El mensaje no se pudo enviar, revise su conexión a internet',
+      })
     });
 });

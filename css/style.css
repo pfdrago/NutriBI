@@ -259,6 +259,12 @@ input[type=submit] {
   border: none;
 }
 
+.btn {
+  background-color: #fdd835;
+  color: black;
+  border: none;
+}
+
 .inputContainer {
   display: flex;
   justify-content: end;
