@@ -1,17 +1,32 @@
-@import '../base/listas';
+/*@import '../base/listas';
+
+.instalacion {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
 
 .instalacionContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 75%;
     text-align: center;
     padding-top: 30px;
+    background: nth($colores, 4);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    gap: 40px;
 
-    h2 {
-        background-color: nth($colores, 2);
+    h3 {
+        font-family: 'Noto Sans', sans-serif;
+        color: nth($colores-texto, 2);
+        font-size: nth($encabezados, 3);
     }
 
     img {
         width: 50%;
     }
-}
+}*/
