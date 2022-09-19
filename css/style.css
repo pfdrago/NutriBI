@@ -253,12 +253,9 @@ header .logoContainer h2 {
   font-family: "Noto Sans", sans-serif;
 }
 
-input[type=submit] {
-  background-color: #fdd835;
-  color: black;
-  border: none;
-}
+/*input[type="text"] {
 
+}*/
 .btn {
   background-color: #fdd835;
   color: black;

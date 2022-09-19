@@ -55,11 +55,9 @@
     font-family: 'Noto Sans', sans-serif;
   }
   
-  input[type="submit"] {
-    background-color: nth($colores, 2);
-    color: black;
-    border: none
-  }
+  /*input[type="text"] {
+  
+  }*/
 
   .btn {
     background-color: nth($colores, 2);
