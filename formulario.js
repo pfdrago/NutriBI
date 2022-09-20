@@ -3,7 +3,10 @@ const nombre = document.getElementById('from_name')
 const mail = document.getElementById('email_id')
 const mensaje = document.getElementById('message')
 
-message
+
+ function limpiarForm() {
+   document.getElementById('form').reset()
+ }
 
 
 document.getElementById('form')
@@ -29,13 +32,14 @@ document.getElementById('form')
         showConfirmButton: false,
         timer: 1500
       })
+      limpiarForm()
       btn.value = "Enviar"
     }, (err) => {
       btn.value = 'Enviar';
       Swal.fire({
         icon: 'error',
         title: 'Ups...',
-        text: 'El mensaje no se pudo enviar, revise su conexión a internet',
+        text: 'El mensaje no se pudo enviar, revise su conexión a internet o intente más tarde.',
       })
     });
   }
@@ -45,7 +49,7 @@ document.getElementById('form')
       toast: true,
       position: 'top',
       showConfirmButton: false,
-      timer: 2000,
+      timer: 1800,
       timerProgressBar: true,
       didOpen: (toast) => {
         toast.addEventListener('mouseenter', Swal.stopTimer)
@@ -55,7 +59,7 @@ document.getElementById('form')
     
     Toast.fire({
       icon: 'warning',
-      title: 'Por favor completa todos los campos'
+      title: 'Por favor completá todos los campos'
     })
 
   }
