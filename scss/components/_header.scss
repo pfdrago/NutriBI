@@ -1,5 +1,9 @@
 @import '../base/listas';
 
+.navPc {
+    display: none;
+}
+
 header{
     background-color: nth($colores, 2);
     display: flex;
@@ -47,6 +51,32 @@ header{
         }
         h2{
             color: black;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navCel {
+        display: none;
+    }
+
+    header{
+
+        .navPc {
+            display: flex;
+            width: 90%;
+
+            .logoContainer {
+                width: 3%;
+            }
+    
+            .navbar-toggler {
+                background-color: nth($colores, 2);
+            }
+
+            .offcanvas {
+                background-color: beige ;
+            }
         }
     }
 }

@@ -24,7 +24,9 @@
 <body>
   <!-- Header -->
   <header>
-    <nav class="navbar navbar-expand-lg">
+
+    <!-- Header Pantalla Celular -->
+    <nav class="navbar navCel navbar-expand-lg">
       <div class="container-fluid">
         <a class="logoContainer" href="index.html">
           <img src="imagenes/logo.png" alt="Logo de NutriBI">
@@ -51,14 +53,49 @@
         </div>
       </div>
     </nav>
+    <!-- Fin Header Pantalla Celular -->
+
+    <!-- Header Pantalla PC -->
+    <nav class="navbar navPc">
+      <div class="container-fluid">
+        <a class="logoContainer" href="index.html">
+          <img src="imagenes/logo.png" alt="Logo de NutriBI">
+          <h2>NutriBI</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                  href="https://drive.google.com/drive/folders/1vYLVOG5Yi_SoSRzep0usIMV-C70b_-E-?usp=sharing"
+                  target="_blank">Instalación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactate.html">Contactate</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin Header Pantalla PC -->
+
   </header>
-  <!-- Fin Header -->
 
   <!-- Main -->
   <main>
 
-    <!-- Card Primaria -->
-    <article class="articuloContainer">
+    <!-- Card Primaria Pantalla Celular -->
+    <article class="articuloContainer articuloCel">
       <div data-aos="zoom-in" class="articulo">
         <img src="imagenes/cardprimaria/quees.png" alt="¿Qué es NutriBI?">
         <h1 id="que-es">¿Qué es NutriBI?</h1>
@@ -69,7 +106,10 @@
         </p>
       </div>
     </article>
-    <!-- Fin Card Primaria -->
+    <!-- Fin Card Primaria Pantalla Celular -->
+
+    <!-- Card Primaria Pantalla PC -->
+    <!-- Fin Card Primaria Pantalla PC -->
 
     <!-- Cards herramientas -->
     <section class="sectionContainer">
