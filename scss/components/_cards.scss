@@ -1,6 +1,10 @@
 @import '../base/listas';
 
-.sectionContainer {
+.sectionContainerPc {
+    display: none;
+}
+
+.sectionContainerCel {
     display: flex;
     justify-content: center;
 
@@ -58,4 +62,57 @@
 .swal2-styled.swal2-confirm:hover {
     background-color: #8fb691;
     border: 1px solid #5e8261;
+}
+
+@media screen and (min-width: 992px) {
+    .sectionContainerCel {
+        display: none;
+    }
+
+    .sectionContainerPc {
+        display: flex;
+        justify-content: center;
+
+        .card1Container, .card2Container, .card3Container, .card4Container {
+            padding: 0;
+        }
+
+        .card1Container {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            align-items: center;
+
+            img {
+                width: 50%;
+            }
+
+            h2 {
+                font-family: 'Noto Sans', sans-serif;
+                color: nth($colores-texto, 2);
+                font-size: nth($encabezados, 3);
+                padding-bottom: 20px;
+            }
+
+            p {
+                color: nth($colores-texto, 1);
+                font-size: nth($parrafos, 1);
+                font-family: 'Noto Sans', sans-serif;
+                padding-bottom: 20px;
+            }
+
+            .btn {
+                background-color: #a5d6a7;
+                border: 1px solid #75a478 ;
+                color: white;
+                width: 50%;
+            }
+
+            .btn:hover {
+                background-color: #8fb691;
+                border: 1px solid #5e8261;
+                color: white;
+            }
+        }
+    }
 }
