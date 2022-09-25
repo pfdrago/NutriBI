@@ -75,16 +75,34 @@
 
         .card1Container, .card2Container, .card3Container, .card4Container {
             padding: 0;
-        }
-
-        .card1Container {
             display: flex;
             flex-direction: row;
             margin-top: 20px;
             align-items: center;
 
+            h2, p {
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+
+            .registroContainer {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+
             img {
-                width: 50%;
+                width: 75%;
+            }
+
+            .imgDer {
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
+            .imgIzq {
+                border-top-left-radius: 10px;
+                border-end-start-radius: 10px;
             }
 
             h2 {

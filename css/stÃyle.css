@@ -131,8 +131,6 @@ header .logoContainer h2 {
   }
   .articuloContainerPc .articulo img {
     width: 50%;
-    border-top-left-radius: 10px;
-    border-end-start-radius: 10px;
   }
   .articuloContainerPc .articulo .queEsContainer {
     padding: 0 50px 0 50px;
@@ -219,50 +217,39 @@ header .logoContainer h2 {
   }
   .sectionContainerPc .card1Container, .sectionContainerPc .card2Container, .sectionContainerPc .card3Container, .sectionContainerPc .card4Container {
     padding: 0;
+  }
+  .sectionContainerPc .card1Container {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
     align-items: center;
   }
-  .sectionContainerPc .card1Container h2, .sectionContainerPc .card1Container p, .sectionContainerPc .card2Container h2, .sectionContainerPc .card2Container p, .sectionContainerPc .card3Container h2, .sectionContainerPc .card3Container p, .sectionContainerPc .card4Container h2, .sectionContainerPc .card4Container p {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  .sectionContainerPc .card1Container .registroContainer, .sectionContainerPc .card2Container .registroContainer, .sectionContainerPc .card3Container .registroContainer, .sectionContainerPc .card4Container .registroContainer {
+  .sectionContainerPc .card1Container .registroContainer {
     display: flex;
     justify-content: center;
-    flex-direction: column;
   }
-  .sectionContainerPc .card1Container img, .sectionContainerPc .card2Container img, .sectionContainerPc .card3Container img, .sectionContainerPc .card4Container img {
-    width: 75%;
+  .sectionContainerPc .card1Container img {
+    width: 50%;
   }
-  .sectionContainerPc .card1Container .imgDer, .sectionContainerPc .card2Container .imgDer, .sectionContainerPc .card3Container .imgDer, .sectionContainerPc .card4Container .imgDer {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
-  .sectionContainerPc .card1Container .imgIzq, .sectionContainerPc .card2Container .imgIzq, .sectionContainerPc .card3Container .imgIzq, .sectionContainerPc .card4Container .imgIzq {
-    border-top-left-radius: 10px;
-    border-end-start-radius: 10px;
-  }
-  .sectionContainerPc .card1Container h2, .sectionContainerPc .card2Container h2, .sectionContainerPc .card3Container h2, .sectionContainerPc .card4Container h2 {
+  .sectionContainerPc .card1Container h2 {
     font-family: "Noto Sans", sans-serif;
     color: #3c3c3c;
     font-size: 30px;
     padding-bottom: 20px;
   }
-  .sectionContainerPc .card1Container p, .sectionContainerPc .card2Container p, .sectionContainerPc .card3Container p, .sectionContainerPc .card4Container p {
+  .sectionContainerPc .card1Container p {
     color: #515151;
     font-size: 1.1rem;
     font-family: "Noto Sans", sans-serif;
     padding-bottom: 20px;
   }
-  .sectionContainerPc .card1Container .btn, .sectionContainerPc .card2Container .btn, .sectionContainerPc .card3Container .btn, .sectionContainerPc .card4Container .btn {
+  .sectionContainerPc .card1Container .btn {
     background-color: #a5d6a7;
     border: 1px solid #75a478;
     color: white;
     width: 50%;
   }
-  .sectionContainerPc .card1Container .btn:hover, .sectionContainerPc .card2Container .btn:hover, .sectionContainerPc .card3Container .btn:hover, .sectionContainerPc .card4Container .btn:hover {
+  .sectionContainerPc .card1Container .btn:hover {
     background-color: #8fb691;
     border: 1px solid #5e8261;
     color: white;
@@ -394,4 +381,4 @@ header .logoContainer h2 {
   display: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=st%C3%83yle.css.map */

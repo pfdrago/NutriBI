@@ -224,10 +224,6 @@ header .logoContainer h2 {
     margin-top: 20px;
     align-items: center;
   }
-  .sectionContainerPc .card1Container h2, .sectionContainerPc .card1Container p, .sectionContainerPc .card2Container h2, .sectionContainerPc .card2Container p, .sectionContainerPc .card3Container h2, .sectionContainerPc .card3Container p, .sectionContainerPc .card4Container h2, .sectionContainerPc .card4Container p {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
   .sectionContainerPc .card1Container .registroContainer, .sectionContainerPc .card2Container .registroContainer, .sectionContainerPc .card3Container .registroContainer, .sectionContainerPc .card4Container .registroContainer {
     display: flex;
     justify-content: center;
@@ -394,4 +390,4 @@ header .logoContainer h2 {
   display: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */

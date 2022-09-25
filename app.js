@@ -39,3 +39,24 @@ btn5.addEventListener('click', () => {
     confirmButtonText: 'Cerrar'
     })
 })
+
+btn6.addEventListener('click', () => {
+    Swal.fire({
+    html: '<video class="video1" controls src="videos/estadisticas.mp4" autoplay type="video/mp4"></video>',
+    confirmButtonText: 'Cerrar'
+    })
+})
+
+btn7.addEventListener('click', () => {
+    Swal.fire({
+    html: '<video class="video1" controls src="videos/historiaclinica.mp4" autoplay type="video/mp4"></video>',
+    confirmButtonText: 'Cerrar'
+    })
+})
+
+btn8.addEventListener('click', () => {
+    Swal.fire({
+    html: '<video class="video1" controls src="videos/informe.mp4" autoplay type="video/mp4"></video>',
+    confirmButtonText: 'Cerrar'
+    })
+})
