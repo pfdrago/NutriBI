@@ -27,6 +27,29 @@ header {
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
+header .opcionesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .opcionesContainer a {
+  font-family: "Noto Sans", sans-serif;
+}
+header .opcionesContainer .iconoContacto {
+  padding-left: 3px;
+}
+header .opcionesContainer .iconoInicio {
+  margin-left: 28px;
+  padding-right: 35px;
+}
+header .opcionesContainer .iconoInstalacion {
+  margin-right: -4px;
+  padding-left: 6px;
+}
+header .opcionesContainer img {
+  height: 4vh;
+  padding-right: 10px;
+}
 header .nav-link {
   font-family: "Noto Sans", sans-serif;
   font-size: 24px;
@@ -66,6 +89,9 @@ header .logoContainer h2 {
 @media screen and (min-width: 992px) {
   .navCel {
     display: none;
+  }
+  header .opcionesContainer {
+    justify-content: flex-start;
   }
   header .navPc {
     display: flex;
@@ -336,7 +362,7 @@ header .logoContainer h2 {
 }
 
 .mainContainer {
-  padding: 140px 0 50px;
+  padding: 100px 0 20px;
   display: flex;
   justify-content: center;
 }
@@ -362,7 +388,7 @@ header .logoContainer h2 {
 
 .formulario {
   width: 75%;
-  padding-bottom: 110px;
+  padding-bottom: 10px;
 }
 
 .field {
@@ -376,9 +402,6 @@ header .logoContainer h2 {
   font-family: "Noto Sans", sans-serif;
 }
 
-/*input[type="text"] {
-
-}*/
 .btn {
   background-color: #fdd835;
   color: black;
@@ -390,6 +413,17 @@ header .logoContainer h2 {
   justify-content: end;
 }
 
+@media screen and (min-width: 992px) {
+  .mainContainer {
+    padding: 140px 0 50px;
+  }
+  .mainContainer .formulario {
+    padding-bottom: 50px;
+  }
+  .mainContainer h1 {
+    padding-top: 50px;
+  }
+}
 .disclaimer {
   display: none;
 }
