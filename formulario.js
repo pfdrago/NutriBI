@@ -46,8 +46,8 @@ document.getElementById('form')
 
   else {
     const Toast = Swal.mixin({
-      toast: true,
-      position: 'top',
+      toast: false,
+      position: 'center',
       showConfirmButton: false,
       timer: 1800,
       timerProgressBar: true,
