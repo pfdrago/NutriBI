@@ -2,19 +2,36 @@
 <html lang="en">
 
 <head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5C7C7RCNR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-D5C7C7RCNR');
+  </script>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="imagenes/favicon/nutricono.ico" type="image/x-icon">
   <title>NutriBI</title>
 
+  <!-- Google Search -->
+  <meta name="google-site-verification" content="Ok4OEB5jeKhDXdDvb8Olm49FlgHyi3-KU-qAc8AIsBQ" />
+
   <!-- Meta description -->
   <meta name="description"
-  content="NutriBI es un paquete de herramientas gratuito en el cual vas a poder cargar pacientes, darle seguimiento, ver estadisticas y llevar un control de tus finanzas, entre muchas otras cosas">
+    content="NutriBI es un paquete de herramientas gratuito en el cual vas a poder cargar pacientes, darle seguimiento, ver estadisticas y llevar un control de tus finanzas, entre muchas otras cosas">
 
   <!-- Meta keywords -->
   <meta name="keywords"
-  content="paquete de herramientas para nutrición, software nutrición, herramienta para nustricionistas, nutrición, nutricionista, salud, , alimentación, peso, bajar de peso, descenso de peso, , vegetariano, vegano, nutrición deportiva, subir de peso, consultorio, licenciada en nutrición, saludable, tratamiento, dieta, nutricionista barracas, nutricionista caba , nutrición barracas, nutrición caba">
+    content="paquete de herramientas para nutrición, software nutrición, herramienta para nustricionistas, nutrición, nutricionista, salud, , alimentación, peso, bajar de peso, descenso de peso, , vegetariano, vegano, nutrición deportiva, subir de peso, consultorio, licenciada en nutrición, saludable, tratamiento, dieta, nutricionista barracas, nutricionista caba , nutrición barracas, nutrición caba">
 
   <!-- Meta author -->
   <meta name="author" content="Pablo Federico Drago">
@@ -24,13 +41,12 @@
 
   <!-- Protocolo open graph -->
   <meta property="og:title" content="NutriBI">
-  <meta property="og:description"
-      content="Paquete de herramientas para nutricionistas">
+  <meta property="og:description" content="Paquete de herramientas para nutricionistas">
   <meta property="og:locale" content="es_ES">
-  <!-- Agregar la meta image -->
+  <meta property="og:image" content="https://www.nutritesanamente.com.ar/imagenes/turnos/turnos.webp">
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://nutribi.com.ar/imagenes/cardprimaria/quees.webp">
 
   <!-- Sweet Alert -->
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -64,7 +80,7 @@
               <div class="opcionesContainer">
                 <img src="imagenes/iconos/inicio.svg" alt="Icono de Home">
                 <a class="nav-link iconoInicio" href="index.html">Inicio</a>
-            </div>
+              </div>
             </li>
             <li class="nav-item">
               <div class="opcionesContainer">
@@ -72,13 +88,13 @@
                 <a class="nav-link iconoInstalacion"
                   href="https://drive.google.com/drive/folders/1vYLVOG5Yi_SoSRzep0usIMV-C70b_-E-?usp=sharing"
                   target="_blank">Instalación</a>
-                </div>
+              </div>
             </li>
             <li class="nav-item">
               <div class="opcionesContainer">
                 <img src="imagenes/iconos/contactate.svg" alt="Icono de Contacto">
                 <a class="nav-link iconoContacto" href="contactate.html">Contactate</a>
-                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -93,7 +109,8 @@
           <img src="imagenes/logo.webp" alt="Logo de NutriBI">
           <h2>NutriBI</h2>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -106,8 +123,8 @@
                 <div class="opcionesContainer">
                   <img src="imagenes/iconos/inicio.svg" alt="Icono de Home">
                   <a class="nav-link" href="index.html">Inicio</a>
-              </div>
-              <hr>
+                </div>
+                <hr>
               </li>
               <li class="nav-item">
                 <div class="opcionesContainer">
@@ -115,15 +132,15 @@
                   <a class="nav-link"
                     href="https://drive.google.com/drive/folders/1vYLVOG5Yi_SoSRzep0usIMV-C70b_-E-?usp=sharing"
                     target="_blank">Instalación</a>
-                  </div>
-                  <hr>
+                </div>
+                <hr>
               </li>
               <li class="nav-item">
                 <div class="opcionesContainer">
                   <img src="imagenes/iconos/contactate.svg" alt="Icono de Contacto">
                   <a class="nav-link" href="contactate.html">Contactate</a>
-              </div>
-              <hr>
+                </div>
+                <hr>
               </li>
             </ul>
           </div>
@@ -143,7 +160,8 @@
         <img src="imagenes/cardprimaria/quees.webp" alt="¿Qué es NutriBI?">
         <h1 id="que-es">¿Qué es NutriBI?</h1>
         <p>
-          NutriBI es un tablero de control diseñado para nutricionistas, creado sobre la plataforma de Microsoft, PowerBI.
+          NutriBI es un tablero de control diseñado para nutricionistas, creado sobre la plataforma de Microsoft,
+          PowerBI.
           <br>
           <br>
           En el mismo, vas a poder visualizar y llevar un control de todos tus pacientes, ver estadísticas, llevar un
@@ -161,18 +179,19 @@
       <div class="articulo">
         <img src="imagenes/cardprimaria/quees.webp" alt="¿Qué es NutriBI?">
         <div class="queEsContainer">
-        <h1 id="que-es">¿Qué es NutriBI?</h1>
-        <p>
-          NutriBI es un tablero de control diseñado para nutricionistas, creado sobre la plataforma de Microsoft, PowerBI.
-          <br>
-          <br>
-          En el mismo, vas a poder visualizar y llevar un control de todos tus pacientes, ver estadísticas, llevar un
-          registro de tus ingresos y más.
-          <br>
-          <br>
-          NutriBI es un pack de herramientas totalmente gratuito, hoy y siempre!
-        </p>
-      </div>
+          <h1 id="que-es">¿Qué es NutriBI?</h1>
+          <p>
+            NutriBI es un tablero de control diseñado para nutricionistas, creado sobre la plataforma de Microsoft,
+            PowerBI.
+            <br>
+            <br>
+            En el mismo, vas a poder visualizar y llevar un control de todos tus pacientes, ver estadísticas, llevar un
+            registro de tus ingresos y más.
+            <br>
+            <br>
+            NutriBI es un pack de herramientas totalmente gratuito, hoy y siempre!
+          </p>
+        </div>
       </div>
     </article>
     <!-- Fin Card Primaria Pantalla PC -->
@@ -183,9 +202,10 @@
         <div class="card1Container">
           <img src="imagenes/cards/card1.webp" alt="Registro y Seguimiento del paciente">
           <h2>Registro de pacientes</h2>
-          <p>Cargá de forma sencilla el registro y seguimiento de todos tus pacientes que luego veras reflejado en los distintos tableros de NutriBI.</p>
+          <p>Cargá de forma sencilla el registro y seguimiento de todos tus pacientes que luego veras reflejado en los
+            distintos tableros de NutriBI.</p>
           <div>
-          <button type="button" id="btn1" class="btn">Ver Video</button>
+            <button type="button" id="btn1" class="btn">Ver Video</button>
           </div>
         </div>
 
@@ -199,7 +219,7 @@
             - Visualización de datos en mapa para impulsar campañas de marketing y más.
           </p>
           <div>
-          <button type="button" id="btn2" class="btn btn-primary">Ver Video</button>
+            <button type="button" id="btn2" class="btn btn-primary">Ver Video</button>
           </div>
         </div>
 
@@ -208,7 +228,7 @@
           <h2>Historia Clínica</h2>
           <p>Visualizá de forma simple la información registrada de cada uno de tus pacientes.</p>
           <div>
-          <button type="button" id="btn3" class="btn btn-primary">Ver Video</button>
+            <button type="button" id="btn3" class="btn btn-primary">Ver Video</button>
           </div>
         </div>
 
@@ -222,7 +242,7 @@
             - IMC
           </p>
           <div>
-          <button type="button" id="btn4" class="btn btn-primary">Ver Video</button>
+            <button type="button" id="btn4" class="btn btn-primary">Ver Video</button>
           </div>
         </div>
       </div>
@@ -234,56 +254,57 @@
       <div class="cardsContainer">
         <div data-aos="fade-left" class="card1Container">
           <div class="registroContainer">
-          <h2>Registro de pacientes</h2>
-          <p>Cargá de forma sencilla el registro y seguimiento de todos tus pacientes que luego veras reflejado en los distintos tableros de NutriBI.</p>
-          <div>
-          <button data-aos="zoom-in" type="button" id="btn5" class="btn">Ver Video</button>
+            <h2>Registro de pacientes</h2>
+            <p>Cargá de forma sencilla el registro y seguimiento de todos tus pacientes que luego veras reflejado en los
+              distintos tableros de NutriBI.</p>
+            <div>
+              <button data-aos="zoom-in" type="button" id="btn5" class="btn">Ver Video</button>
+            </div>
           </div>
-        </div>
-        <img class="imgDer" src="imagenes/cards/card1.webp" alt="Registro y Seguimiento del paciente">
+          <img class="imgDer" src="imagenes/cards/card1.webp" alt="Registro y Seguimiento del paciente">
         </div>
 
         <div data-aos="fade-right" class="card2Container">
           <img class="imgIzq" src="imagenes/cards/card2.webp" alt="Estadísticas">
           <div class="estadisticasContainer">
-          <h2>Estadísticas</h2>
-          <p>Llevá un análisis de toda la información registrada con los distintos tableros de control que ofrece
-            NutriBI.<br>
-            - Gráficos Dinámicos.<br>
-            - Registro de ingresos mensuales.<br>
-            - Visualización de datos en mapa para impulsar campañas de marketing y más.
-          </p>
-          <div>
-          <button data-aos="zoom-in" type="button" id="btn6" class="btn btn-primary">Ver Video</button>
+            <h2>Estadísticas</h2>
+            <p>Llevá un análisis de toda la información registrada con los distintos tableros de control que ofrece
+              NutriBI.<br>
+              - Gráficos Dinámicos.<br>
+              - Registro de ingresos mensuales.<br>
+              - Visualización de datos en mapa para impulsar campañas de marketing y más.
+            </p>
+            <div>
+              <button data-aos="zoom-in" type="button" id="btn6" class="btn btn-primary">Ver Video</button>
+            </div>
           </div>
-        </div>
         </div>
 
         <div data-aos="fade-left" class="card3Container">
           <div class="historiaContainer">
-          <h2>Historia Clínica</h2>
-          <p>Visualizá de forma simple la información registrada de cada uno de tus pacientes.</p>
-          <div>
-          <button data-aos="zoom-in" type="button" id="btn7" class="btn btn-primary">Ver Video</button>
+            <h2>Historia Clínica</h2>
+            <p>Visualizá de forma simple la información registrada de cada uno de tus pacientes.</p>
+            <div>
+              <button data-aos="zoom-in" type="button" id="btn7" class="btn btn-primary">Ver Video</button>
+            </div>
           </div>
-        </div>
-        <img class="imgDer" src="imagenes/cards/card3.webp" alt="Historia Clínica">
+          <img class="imgDer" src="imagenes/cards/card3.webp" alt="Historia Clínica">
         </div>
 
         <div data-aos="fade-right" class="card4Container">
           <img class="imgIzq" src="imagenes/cards/card4.webp" alt="Informe del paciente">
           <div class="informeContainer">
-          <h2>Informe del paciente</h2>
-          <p>Analizá la evolución de todos tus pacientes.<br>
-            - Peso<br>
-            - Composición corporal (Músculo)<br>
-            - Composición corporal (Grasa)<br>
-            - IMC
-          </p>
-          <div>
-          <button data-aos="zoom-in" type="button" id="btn8" class="btn btn-primary">Ver Video</button>
+            <h2>Informe del paciente</h2>
+            <p>Analizá la evolución de todos tus pacientes.<br>
+              - Peso<br>
+              - Composición corporal (Músculo)<br>
+              - Composición corporal (Grasa)<br>
+              - IMC
+            </p>
+            <div>
+              <button data-aos="zoom-in" type="button" id="btn8" class="btn btn-primary">Ver Video</button>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </section>
