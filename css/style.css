@@ -140,6 +140,9 @@ header .logoContainer h2 {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.articulo img {
+  height: 35vh;
+}
 
 @media screen and (min-width: 992px) {
   .articuloContainerCel {
