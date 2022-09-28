@@ -64,12 +64,30 @@
                     padding-bottom: 20px;
                     font-family: 'Noto Sans', sans-serif;
                     color: nth($colores-texto, 2);
-                    font-size: nth($encabezados, 3);
+                    font-size: nth($encabezados, 2);
                 }
                 p {
                     color: nth($colores-texto, 1);
-                    font-size: nth($parrafos, 1);
+                    font-size: nth($parrafos, 4);
                     font-family: 'Noto Sans', sans-serif;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .articuloContainerPc {
+
+        .articulo {
+
+            .queEsContainer {
+                h1 {
+                    font-size: nth($encabezados, 3);
+                }
+                
+                p {
+                    font-size: nth($parrafos, 1);  
                 }
             }
         }

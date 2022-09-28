@@ -112,13 +112,13 @@
             h2 {
                 font-family: 'Noto Sans', sans-serif;
                 color: nth($colores-texto, 2);
-                font-size: nth($encabezados, 3);
+                font-size: nth($encabezados, 2);
                 padding-bottom: 20px;
             }
 
             p {
                 color: nth($colores-texto, 1);
-                font-size: nth($parrafos, 1);
+                font-size: nth($parrafos, 4);
                 font-family: 'Noto Sans', sans-serif;
                 padding-bottom: 20px;
             }
@@ -137,4 +137,20 @@
             }
         }
     }
+}
+
+@media screen and (min-width: 1500px) {
+ .sectionContainerPc {
+
+    .card1Container, .card2Container, .card3Container, .card4Container {
+        h2 {
+            font-size: nth($encabezados, 3);
+        }
+
+        p {
+            font-size: nth($parrafos, 1);
+        }
+    }
+
+ }   
 }

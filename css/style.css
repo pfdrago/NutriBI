@@ -167,12 +167,20 @@ header .logoContainer h2 {
     padding-bottom: 20px;
     font-family: "Noto Sans", sans-serif;
     color: #3c3c3c;
-    font-size: 30px;
+    font-size: 24px;
   }
   .articuloContainerPc .articulo .queEsContainer p {
     color: #515151;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-family: "Noto Sans", sans-serif;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .articuloContainerPc .articulo .queEsContainer h1 {
+    font-size: 30px;
+  }
+  .articuloContainerPc .articulo .queEsContainer p {
+    font-size: 1.1rem;
   }
 }
 .sectionContainerPc {
@@ -276,12 +284,12 @@ header .logoContainer h2 {
   .sectionContainerPc .card1Container h2, .sectionContainerPc .card2Container h2, .sectionContainerPc .card3Container h2, .sectionContainerPc .card4Container h2 {
     font-family: "Noto Sans", sans-serif;
     color: #3c3c3c;
-    font-size: 30px;
+    font-size: 24px;
     padding-bottom: 20px;
   }
   .sectionContainerPc .card1Container p, .sectionContainerPc .card2Container p, .sectionContainerPc .card3Container p, .sectionContainerPc .card4Container p {
     color: #515151;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-family: "Noto Sans", sans-serif;
     padding-bottom: 20px;
   }
@@ -295,6 +303,14 @@ header .logoContainer h2 {
     background-color: #8fb691;
     border: 1px solid #5e8261;
     color: white;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .sectionContainerPc .card1Container h2, .sectionContainerPc .card2Container h2, .sectionContainerPc .card3Container h2, .sectionContainerPc .card4Container h2 {
+    font-size: 30px;
+  }
+  .sectionContainerPc .card1Container p, .sectionContainerPc .card2Container p, .sectionContainerPc .card3Container p, .sectionContainerPc .card4Container p {
+    font-size: 1.1rem;
   }
 }
 .video1 {
