@@ -59,6 +59,7 @@
                 width: 50%;
                 border-top-left-radius: 10px;
                 border-end-start-radius: 10px;
+                height: auto;
             }
             
             .queEsContainer {
@@ -84,6 +85,10 @@
     .articuloContainerPc {
 
         .articulo {
+
+            img {
+                height: auto;
+            }
 
             .queEsContainer {
                 h1 {

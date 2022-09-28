@@ -40,6 +40,10 @@
     margin-bottom: 20px;
     padding:  15px 0 15px 0;
 
+    img {
+        height: 35vh;
+    }
+
     h2 {
         font-family: 'Noto Sans', sans-serif;
         color: nth($colores-texto, 2);
@@ -83,6 +87,10 @@
             flex-direction: row;
             margin-top: 20px;
             align-items: center;
+
+            img {
+                height: auto;
+            }
 
             h2, p {
                 padding-right: 10px;
@@ -149,6 +157,10 @@
 
         p {
             font-size: nth($parrafos, 1);
+        }
+
+        img {
+            height: auto;
         }
     }
 

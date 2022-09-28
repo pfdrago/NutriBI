@@ -162,6 +162,7 @@ header .logoContainer h2 {
     width: 50%;
     border-top-left-radius: 10px;
     border-end-start-radius: 10px;
+    height: auto;
   }
   .articuloContainerPc .articulo .queEsContainer {
     padding: 0 50px 0 50px;
@@ -179,6 +180,9 @@ header .logoContainer h2 {
   }
 }
 @media screen and (min-width: 1500px) {
+  .articuloContainerPc .articulo img {
+    height: auto;
+  }
   .articuloContainerPc .articulo .queEsContainer h1 {
     font-size: 30px;
   }
@@ -224,6 +228,9 @@ header .logoContainer h2 {
   margin-bottom: 20px;
   padding: 15px 0 15px 0;
 }
+.card1Container img, .card2Container img, .card3Container img, .card4Container img {
+  height: 35vh;
+}
 .card1Container h2, .card2Container h2, .card3Container h2, .card4Container h2 {
   font-family: "Noto Sans", sans-serif;
   color: #3c3c3c;
@@ -263,6 +270,9 @@ header .logoContainer h2 {
     flex-direction: row;
     margin-top: 20px;
     align-items: center;
+  }
+  .sectionContainerPc .card1Container img, .sectionContainerPc .card2Container img, .sectionContainerPc .card3Container img, .sectionContainerPc .card4Container img {
+    height: auto;
   }
   .sectionContainerPc .card1Container h2, .sectionContainerPc .card1Container p, .sectionContainerPc .card2Container h2, .sectionContainerPc .card2Container p, .sectionContainerPc .card3Container h2, .sectionContainerPc .card3Container p, .sectionContainerPc .card4Container h2, .sectionContainerPc .card4Container p {
     padding-right: 10px;
@@ -314,6 +324,9 @@ header .logoContainer h2 {
   }
   .sectionContainerPc .card1Container p, .sectionContainerPc .card2Container p, .sectionContainerPc .card3Container p, .sectionContainerPc .card4Container p {
     font-size: 1.1rem;
+  }
+  .sectionContainerPc .card1Container img, .sectionContainerPc .card2Container img, .sectionContainerPc .card3Container img, .sectionContainerPc .card4Container img {
+    height: auto;
   }
 }
 .video1 {
